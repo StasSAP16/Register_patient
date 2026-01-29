@@ -1,0 +1,108 @@
+[
+  {
+    "activity_name": "Record the data of each patient ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk initiates a new patient intake session within the hospital administration system"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk requests valid identification documents from the patient arriving at the registration desk"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk creates a blank digital patient profile to begin data entry"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the SSN of the patient ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk locates the Social Security Number field in the registration form"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk inputs the patient's unique Social Security Number"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk validates the SSN format to ensure it meets system requirements"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Name of the patient ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk identifies the 'First Name' field in the database interface"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk types the patient's legal first name as it appears on their ID"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk confirms the spelling of the name with the patient"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Surname of the patient ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk navigates to the 'Surname' (Last Name) field"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk inputs the patient's family name"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk verifies that the surname matches the provided identification"
+      }
+    ]
+  },
+  {
+    "activity_name": "Print referral document ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk compiles the entered patient data to generate the Referral Document [cite: 2]"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk executes the print command for the generated document"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk retrieves the physical document from the printer"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk hands the printed referral to the patient for their records"
+      }
+    ]
+  },
+  {
+    "activity_name": "Archive the record in the file system ",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk reviews the complete digital record for accuracy and completeness"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk executes the save command to commit the data"
+      },
+      {
+        "step_number": 3,
+        "description": "System writes the patient information into the database for long-term storage [cite: 2]"
+      }
+    ]
+  }
+]

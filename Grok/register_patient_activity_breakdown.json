@@ -1,0 +1,128 @@
+[
+  {
+    "activity_name": "Record the data of each patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk greets the patient and confirms the purpose of registration"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk requests patient's personal identification documents"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk collects and verifies basic patient information including name, surname, and SSN"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk temporarily notes the collected data for system entry"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the SSN of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk accesses the hospital's patient registration system"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk enters the patient's SSN into the designated field"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk validates the SSN format and checks for duplicates in the system"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk saves the SSN entry and logs any validation results"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Name of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk navigates to the name entry section in the registration system"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk inputs the patient's first name accurately"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk reviews the entry for spelling and formatting errors"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk confirms and saves the name entry"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Surname of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk locates the surname field in the registration interface"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk enters the patient's surname precisely"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk checks for any inconsistencies or typos"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk submits and stores the surname data"
+      }
+    ]
+  },
+  {
+    "activity_name": "Print referral document",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk compiles all registered patient data into the referral template"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk reviews the document for completeness and accuracy"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk sends the document to the printer"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk collects the printed referral and attaches it to the patient's file"
+      }
+    ]
+  },
+  {
+    "activity_name": "Archive the record in file system",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk finalizes the patient record in the system"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk saves the record to the designated file system location"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk updates the associated database with the new record details"
+      },
+      {
+        "step_number": 4,
+        "description": "Clerk verifies the archiving process and logs completion"
+      }
+    ]
+  }
+]

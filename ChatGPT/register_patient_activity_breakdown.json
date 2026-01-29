@@ -1,0 +1,104 @@
+[
+  {
+    "activity_name": "Record the data of each patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk initiates a new patient registration record in the hospital information system"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk verifies the patient's presence and registration intent"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk opens the data entry interface for patient demographic information"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the SSN of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk requests the patient's social security number or national identifier"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk validates the SSN format according to national rules"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk enters the SSN into the patient registration system"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Name of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk requests the patient's given (first) name"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk verifies spelling with the patient or official document"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk records the patient's given name in the system"
+      }
+    ]
+  },
+  {
+    "activity_name": "Register the Surname of the patient",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Clerk requests the patient's family name (surname)"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk confirms surname accuracy against identification documents"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk records the surname in the patient registration system"
+      }
+    ]
+  },
+  {
+    "activity_name": "Print referral document",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "System consolidates registered patient data into a referral template"
+      },
+      {
+        "step_number": 2,
+        "description": "Clerk reviews the referral document for completeness"
+      },
+      {
+        "step_number": 3,
+        "description": "Clerk prints the referral document for patient use"
+      }
+    ]
+  },
+  {
+    "activity_name": "Archive the record in file system",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "System stores the finalized patient record in the hospital database"
+      },
+      {
+        "step_number": 2,
+        "description": "System links the archived record to the printed referral document"
+      },
+      {
+        "step_number": 3,
+        "description": "System confirms successful completion of patient registration"
+      }
+    ]
+  }
+]
