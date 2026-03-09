@@ -1,0 +1,31 @@
+{
+    "activity_breakdown": [{
+        "activity_name": "Register Patient in Hospital",
+        "substeps": [
+            {
+                "step_number": 1,
+                "description": "Record the data of each patient [cite: 1]"
+            },
+            {
+                "step_number": 2,
+                "description": "Register the SSN of the patient [cite: 1]"
+            },
+            {
+                "step_number": 3,
+                "description": "Register the Name of the patient [cite: 1]"
+            },
+            {
+                "step_number": 4,
+                "description": "Register the Surname of the patient [cite: 1]"
+            },
+            {
+                "step_number": 5,
+                "description": "Print referral document [cite: 1]"
+            },
+            {
+                "step_number": 6,
+                "description": "Archive the record in the file system [cite: 1]"
+            }
+        ]
+    }]
+}

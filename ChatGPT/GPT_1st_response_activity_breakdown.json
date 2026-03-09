@@ -1,0 +1,47 @@
+{
+  "activity_breakdown": [{
+    "activity_name": "Register Patient in Hospital",
+    "substeps": [
+      {
+        "step_number": 1,
+        "description": "Initiate patient registration upon patient arrival at the hospital"
+      },
+      {
+        "step_number": 2,
+        "description": "Record initial patient data in the registration system"
+      },
+      {
+        "step_number": 3,
+        "description": "Register the patient's Social Security Number (SSN)"
+      },
+      {
+        "step_number": 4,
+        "description": "Register the patient's first name"
+      },
+      {
+        "step_number": 5,
+        "description": "Register the patient's surname"
+      },
+      {
+        "step_number": 6,
+        "description": "Validate completion of all mandatory patient identification fields"
+      },
+      {
+        "step_number": 7,
+        "description": "Generate and print the patient referral document"
+      },
+      {
+        "step_number": 8,
+        "description": "Archive the patient registration record in the hospital file system"
+      },
+      {
+        "step_number": 9,
+        "description": "Store the patient registration data in the hospital database"
+      },
+      {
+        "step_number": 10,
+        "description": "Complete the patient registration process"
+      }
+    ]
+  }]
+}
